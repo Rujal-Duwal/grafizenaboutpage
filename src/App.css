@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:Poppins,sans-serif;
 }
 
 .App-logo {
@@ -36,3 +37,55 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  font-family:Poppins,sans-serif;
+}
+
+/*.container {*/
+/*  max-width: 1140px;*/
+/*  margin: 0 auto;*/
+/*  padding-left: 15px;*/
+/*  padding-right: 15px;*/
+/*}*/
+
+p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #252b33;
+}
+
+@media only screen and (max-width: 767px){
+  body{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-page-common h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    width: 100% !important;
+  }
+
+  .main-page-header .page-header-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .main-page-header .page-header-content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 979px) {
+  .about-left-right-sec .culture-detail {
+    margin-bottom: 30px !important;
+  }
+}
+

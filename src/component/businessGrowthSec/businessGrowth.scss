@@ -1,0 +1,23 @@
+.business-growth-sec {
+  padding: 100px 0;
+
+  .growth-detail {
+    h2 {
+      width: 65%;
+      margin: 0 auto;
+      font-size: 32px;
+      line-height: 46px;
+      font-weight: 400;
+    }
+    .counters{
+      margin-top: 60px;
+      span{
+        font-size: 80px;
+        line-height: 70px;
+        letter-spacing: -3px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

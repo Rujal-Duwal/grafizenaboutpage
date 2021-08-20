@@ -1,0 +1,44 @@
+.about-gallery-sec {
+    padding: 60px 30px;
+
+    .gallery-grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .gallery-infra-col {
+            width: 360px;
+
+            .medium-img-sec {
+                height: 314px;
+
+                img {
+                    min-height: 314px;
+                }
+            }
+            .small-img-sec{
+                height: 186px;
+                img {
+                    min-height: 186px;
+                }
+            }
+        }
+        .gallery-center-col{
+            width: 945px;
+            margin: 0 30px;
+            .large-img-sec{
+                height: 530px;
+                img{
+                    min-height: 530px;
+                }
+            }
+        }
+    }
+    .col-spacer {
+        display: inline-block;
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+

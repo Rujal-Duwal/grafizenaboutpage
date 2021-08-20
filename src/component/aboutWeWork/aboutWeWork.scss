@@ -1,0 +1,48 @@
+.about-we-work-sec {
+  .client-video-sec {
+    position: relative;
+
+    img {
+      vertical-align: middle;
+      border-style: none;
+      max-width: 100%;
+    }
+
+    .video-button {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      width: 50px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .work-with-us{
+    p{
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 26px;
+      color: #252b33;
+    }
+    h2{
+      margin-bottom: 30px;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+  }
+  .orange-btn{
+    background: #f13c31;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    padding: 13px 33px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+}
+
+

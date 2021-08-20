@@ -1,0 +1,42 @@
+.director-info-sec{
+  padding-top: 120px;
+  .director-quote{
+    background-color: #202020;
+    position: relative;
+    height: 600px;
+    .row{
+      height: 100%;
+    }
+    .author-img{
+      position: absolute;
+      left: 30px;
+      bottom: 0;
+      img{
+        vertical-align: middle;
+        border-style: none;
+        max-width: 100%;
+      }
+    }
+    .quote-sec{
+      margin-top: 100px;
+      padding: 0 30px;
+      h2{
+        color: #fff;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: .5px;
+        margin-bottom: 60px;
+        font-weight: 800;
+      }
+      h6{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 26px;
+      }
+      p{
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+ .page-header-content p {
+    font-size: 20px;
+    color: #252B33;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+ .page-header-content h1 {
+    font-size: 60px;
+    color: #252B33;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+ .main-page-header {
+     padding: 60px 0px;
+     text-align: center;
+     display: flex;
+     display: -ms-flexbox;
+     align-items: center;
+     height: calc(100vh - 90px);
+ }
+
+ .page-header-container{
+     max-width: 1140px;
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+ }

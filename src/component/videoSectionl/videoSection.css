@@ -1,0 +1,17 @@
+.video-btn-play{
+    background: url(../../static/images/play-btn-video.7931438a2edd6ea91aaf.svg) no-repeat;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    cursor: pointer;
+    visibility: visible;
+}
+.about-video-section{
+    position: relative;
+}
